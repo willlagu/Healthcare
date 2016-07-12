@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         switch (v.getId()) {
 
             case R.id.register:
+
                 Intent intent = new Intent(this,Registro.class);
                 startActivity(intent);
                 break;

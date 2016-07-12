@@ -2,17 +2,27 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_aceptacion"
+    android:id="@+id/activity_test"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="aplicacion.hospital.app.umb.edu.healthcare.Aceptacion">
-
+    tools:context="aplicacion.hospital.app.umb.edu.healthcare.Test">
     <EditText
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:inputType="textMultiLine"
         android:ems="10"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteY="80dp"
         android:id="@+id/caja" />
+
+    <Button
+        android:text="Salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/salir"
+        app:layout_constraintRight_toRightOf="@+id/activity_test"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_test"
+        android:layout_marginBottom="16dp" />
 </android.support.constraint.ConstraintLayout>

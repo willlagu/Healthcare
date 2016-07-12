@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Registro" />
-        <activity android:name=".Aceptacion"></activity>
+        <activity android:name=".Aceptacion" />
+        <activity android:name=".Test"></activity>
     </application>
 
 </manifest>
